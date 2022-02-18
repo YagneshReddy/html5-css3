@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradients</title>
+    <style>
+        .box1 {
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient( red, yellow);
+        }
+        .box2 {
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(to right, red, yellow);
+        }
+        .box3 {
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(to left, red, yellow);
+        }
+        .box4 {
+            background-color: red;
+            height: 300px;
+            width: 400px;
+            background-image: repeating-linear-gradient(to top right, red , yellow 10%, #00FF00 20% );
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div> <br>
+    <div class="box2"></div> <br>
+    <div class="box3"></div> <br>
+    <div class="box4"></div> <br>
+</body>
+</html>

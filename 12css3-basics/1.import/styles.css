@@ -1,0 +1,5 @@
+/* @import url("../../home.css"); */
+@import "../../home.css";
+h1 {
+    color: blue;
+}
